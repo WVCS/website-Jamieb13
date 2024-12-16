@@ -1,6 +1,6 @@
 body{
   background-image: linear-gradient(blue,white);
-  
+}
   h3{
   text-decoration-line: underline;
   text-decoration-style: solid; /* this is default */
@@ -8,5 +8,5 @@ body{
    text-shadow: 2px 2px 4px blue;
   font-family: Papyrus;
 }
-}
+
 
