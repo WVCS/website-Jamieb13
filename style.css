@@ -1,12 +1,65 @@
-body{
-  background-image: linear-gradient(blue,white);
+body {
+  margin: 0;
+  font-family: Copperplate, sans-serif;
+  background-image: url(https://i.natgeofe.com/n/0f550dab-11fc-460e-a39b-030b6e5cbf06/practicalguide.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-  h3{
-  text-decoration-line: underline;
-  text-decoration-style: solid; /* this is default */
-  font-size: 45px;
-   text-shadow: 2px 2px 4px blue;
-  font-family: Papyrus;
+
+.navbar {
+  background-color: #24252a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.nav-left {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1; 
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 1.5rem; 
+}
+
+.nav-links a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  transition: color 0.3s ease;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto; 
+}
+
+.nav-left h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 550;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 
